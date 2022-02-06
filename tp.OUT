@@ -1,0 +1,122 @@
+Area of the floor of the compartment  [m2]      48.00
+Height of the compartment              [m]       3.00
+Initial temperature                    [K]     293.00
+Initial pressure                      [Pa]  100000.00
+Combustion Heat of fuel             [J/kg]  14000000.
+Maximum timestep used by the solver    [s]      10.00
+Timestep to print the results          [s]      60.00
+Time of the end of the calculation     [s]    7200.00
+********************************************
+ 
+Type of the ceiling                    []          0
+Area of the ceiling                  [m2]      48.00
+Number of elements in the ceiling      []          6
+Length/material of element n°  1,  [m]/[],      0.00/  2
+Length/material of element n°  2,  [m]/[],      0.00/  2
+Length/material of element n°  3,  [m]/[],      0.00/  2
+Length/material of element n°  4,  [m]/[],      0.07/  3
+Length/material of element n°  5,  [m]/[],      0.07/  3
+Length/material of element n°  6,  [m]/[],      0.07/  3
+ 
+Area of the floor                    [m2]      48.00
+Number of elements in the ceiling      []          7
+Length/material of element n°  1,  [m]/[],      0.03/  3
+Length/material of element n°  2,  [m]/[],      0.03/  3
+Length/material of element n°  3,  [m]/[],      0.03/  3
+Length/material of element n°  4,  [m]/[],      0.03/  3
+Length/material of element n°  5,  [m]/[],      0.03/  3
+Length/material of element n°  6,  [m]/[],      0.03/  3
+Length/material of element n°  7,  [m]/[],      0.03/  3
+ 
+Length of the wall n°    1           [m2]       6.00
+Number of elements in this wall        []          6
+Length/material of element n°  1,  [m]/[],      0.01/  2
+Length/material of element n°  2,  [m]/[],      0.01/  2
+Length/material of element n°  3,  [m]/[],      0.07/  1
+Length/material of element n°  4,  [m]/[],      0.07/  1
+Length/material of element n°  5,  [m]/[],      0.10/  3
+Length/material of element n°  6,  [m]/[],      0.10/  3
+ 
+Length of the wall n°    2           [m2]       8.00
+Number of elements in this wall        []          6
+Length/material of element n°  1,  [m]/[],      0.01/  2
+Length/material of element n°  2,  [m]/[],      0.01/  2
+Length/material of element n°  3,  [m]/[],      0.04/  1
+Length/material of element n°  4,  [m]/[],      0.04/  1
+Length/material of element n°  5,  [m]/[],      0.01/  2
+Length/material of element n°  6,  [m]/[],      0.01/  2
+ 
+Length of the wall n°    3           [m2]       6.00
+Number of elements in this wall        []          6
+Length/material of element n°  1,  [m]/[],      0.01/  2
+Length/material of element n°  2,  [m]/[],      0.01/  2
+Length/material of element n°  3,  [m]/[],      0.07/  1
+Length/material of element n°  4,  [m]/[],      0.07/  1
+Length/material of element n°  5,  [m]/[],      0.10/  3
+Length/material of element n°  6,  [m]/[],      0.10/  3
+ 
+Length of the wall n°    4           [m2]       8.00
+Number of elements in this wall        []          6
+Length/material of element n°  1,  [m]/[],      0.01/  2
+Length/material of element n°  2,  [m]/[],      0.01/  2
+Length/material of element n°  3,  [m]/[],      0.04/  1
+Length/material of element n°  4,  [m]/[],      0.04/  1
+Length/material of element n°  5,  [m]/[],      0.01/  2
+Length/material of element n°  6,  [m]/[],      0.01/  2
+********************************************
+Number of materials for partitions      []         3
+Material N°    1
+Density                           [kg/m3]      60.00
+Conductivity                     [W/(mK)]       0.04
+Specific heat                   [J/(kgK)]    1030.00
+Relative emisivity, inside surface     []       0.80
+Relative emisivity, outside surface    []       0.80
+Convection coef., inside surf.  [W/(m2K)]      35.00
+Convection coef., outside surf. [W/(m2K)]       9.00
+Material N°    2
+Density                           [kg/m3]     900.00
+Conductivity                     [W/(mK)]       0.25
+Specific heat                   [J/(kgK)]    1000.00
+Relative emisivity, inside surface     []       0.80
+Relative emisivity, outside surface    []       0.80
+Convection coef., inside surf.  [W/(m2K)]      35.00
+Convection coef., outside surf. [W/(m2K)]       9.00
+Material N°    3
+Density                           [kg/m3]    2300.00
+Conductivity                     [W/(mK)]       1.60
+Specific heat                   [J/(kgK)]    1000.00
+Relative emisivity, inside surface     []       0.80
+Relative emisivity, outside surface    []       0.80
+Convection coef., inside surf.  [W/(m2K)]      35.00
+Convection coef., outside surf. [W/(m2K)]       9.00
+********************************************
+Number of openings                     []          3
+Opening N°    1
+Heigth of the sill of the opening     [m]       0.00
+Heigth of the soffit of the opening   [m]       2.20
+Width of the opening                  [m]       0.90
+Contraction coef. (Bernoulli)          []       0.70
+Opening N°    2
+Heigth of the sill of the opening     [m]       0.00
+Heigth of the soffit of the opening   [m]       2.20
+Width of the opening                  [m]       0.90
+Contraction coef. (Bernoulli)          []       0.70
+Opening N°    3
+Heigth of the sill of the opening     [m]       1.00
+Heigth of the soffit of the opening   [m]       3.00
+Width of the opening                  [m]       2.00
+Contraction coef. (Bernoulli)          []       0.70
+********************************************
+The pyrolisis rate is defined by a t2 curve, a plateau
+and a linear decrease. The 4 parameters are:
+rmfmax,tplateau,tendplateau,tendfire,rfireareamax,RHRf
+    0.8571     1039.     2153.     3405.       48.   250000.
+********************************************
+The number of forced vent is    0
+********************************************
+The number of horizontal vent group is             0
+********************************************
+The maximum fire area (  48.00m²) is greater than 25% of the floor area (  48.00m²). The fire load is uniformly distributed.
+********************************************
+ Switch to one zone: Lower layer Height < 20.0% ocompartment height at time [s]    410.00
+ Fully engulfed fire:Temperature of zone >500.0°C at time [s]    651.58
